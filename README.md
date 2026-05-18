@@ -6,11 +6,7 @@ This package is prepared for the PeerJ Computer Science submission:
 
 It is designed as a compact supplemental package for review. It provides the machine-readable source data needed to inspect the manuscript tables and figures, plus only the core code needed to audit the BASK mechanisms. It does not redistribute original benchmark datasets, pretrained models, generated adapters, or large experiment logs.
 
-## PeerJ upload description
 
-Use the following description in the PeerJ `Describe the data or code files you are uploading as supplementary files` field:
-
-> The supplemental package contains aggregate source data for the reported tables and figures, metric scripts, bootstrap scripts, configuration templates, prompt templates, reconstruction notes, and a core-code excerpt for the BASK experiments. The original third-party benchmark datasets are not redistributed; source benchmark files should be obtained from their original providers according to their licenses.
 
 ## Contents
 
