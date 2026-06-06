@@ -1,0 +1,12 @@
+Answer the question using the retrieved passages below.
+
+Question:
+{question}
+
+Retrieved passages:
+{ordered_passages}
+
+Instruction:
+Provide a concise answer. Do not include explanation unless required by the question.
+
+Answer:

@@ -1,0 +1,8 @@
+figure,title,source_data_file,note
+Figure 1,Resource-diagnostic framework of BASK,N/A,Diagram figure; source editable diagram may be archived separately.
+Figure 2,HotpotQA 32-query F1,figure2_hotpot32_f1.csv,Mechanism screen under fixed routing and evidence-priority rerouting.
+Figure 3,Rerouting diagnosis on HotpotQA Real-300,figure3_rerouting_delta_f1.csv,Panel A delta F1 values; margin-gated threshold values are regenerated from run logs.
+Figure 4,Two-passage position identifier counts,figure4_two_passage_identifier_counts.csv,Counts use zero-based top-3 retrieval positions.
+Figure 5,Cross-task PRAG/Combine F1,figure5_cross_task_prag_combine_f1.csv,Controlled benchmark subset comparison.
+Figure 6,2Wiki same-source controlled subset metrics,figure6_2wiki_same_source_metrics.csv,"EM, F1, precision, and recall."
+Figure 7,Supplementary diagnostics,figure7_supplementary_diagnostics.csv,Aggregate values for supplementary diagnostics.

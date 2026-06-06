@@ -1,0 +1,15 @@
+Answer the question using both the selected parametric adapter route and the retrieved passages below.
+
+Question:
+{question}
+
+Retrieved passages in BM25 order:
+{ordered_passages}
+
+Selected adapter route:
+{adapter_route}
+
+Instruction:
+Provide a concise answer. Prefer evidence that is supported by the retrieved passages and the selected route.
+
+Answer:

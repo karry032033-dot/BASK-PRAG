@@ -1,0 +1,5 @@
+evidence_mode,variant,delta_f1_vs_fixed_routing
+PRAG,BASK-SparseFirst,0.000
+PRAG,BASK-SparseAdaptive,0.001
+Combine,BASK-SparseFirst,-0.032
+Combine,BASK-SparseAdaptive,-0.027

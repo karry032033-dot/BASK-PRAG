@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated manuscript and the original benchmark datasets."
+title: "BASK-PRAG: Budget-Aware Structured Knowledge Injection for Resource-Efficient Parametric Retrieval-Augmented Generation"
+type: software
+authors:
+  - family-names: Yang
+    given-names: Chengyong
+  - family-names: Yuan
+    given-names: Kairui
+  - family-names: Li
+    given-names: Qiuyan
+  - family-names: Liu
+    given-names: Xin
+year: 2026
+repository-code: "https://github.com/karry032033-dot/BASK-PRAG"
+license: MIT
+keywords:
+  - retrieval-augmented generation
+  - parametric retrieval-augmented generation
+  - large language models
+  - LoRA adapter reuse
+  - resource-efficient artificial intelligence

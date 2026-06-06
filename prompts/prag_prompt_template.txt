@@ -1,0 +1,12 @@
+Answer the question using the selected parametric adapter route.
+
+Question:
+{question}
+
+Selected adapter route:
+{adapter_route}
+
+Instruction:
+Provide a concise answer.
+
+Answer:

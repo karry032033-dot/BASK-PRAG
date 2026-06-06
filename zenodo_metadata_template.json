@@ -1,0 +1,39 @@
+{
+  "title": "BASK-PRAG: Budget-Aware Structured Knowledge Injection for Resource-Efficient Parametric Retrieval-Augmented Generation",
+  "upload_type": "software",
+  "description": "Repository and reproducibility package for the BASK-PRAG AI Application manuscript. The package includes code excerpts, configuration templates, prompt templates, metric scripts, aggregate source data, and reconstruction notes. Third-party benchmark datasets and retrieval resources are not redistributed.",
+  "creators": [
+    {
+      "name": "Yang, Chengyong",
+      "affiliation": "Guilin University of Technology"
+    },
+    {
+      "name": "Yuan, Kairui",
+      "affiliation": "Guilin University of Technology"
+    },
+    {
+      "name": "Li, Qiuyan",
+      "affiliation": "Guilin Institute of Information Technology"
+    },
+    {
+      "name": "Liu, Xin",
+      "affiliation": "Guilin Institute of Information Technology"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "retrieval-augmented generation",
+    "parametric retrieval-augmented generation",
+    "LoRA",
+    "resource-efficient AI",
+    "question answering"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/karry032033-dot/BASK-PRAG",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

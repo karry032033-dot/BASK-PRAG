@@ -1,0 +1,5 @@
+dataset,prag_f1,combine_f1
+HotpotQA,0.145,0.242
+2WikiMultihopQA,0.4282,0.4107
+PopQA,0.158,0.307
+ComplexWebQuestions,0.350,0.392

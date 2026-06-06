@@ -1,0 +1,3 @@
+variant,best_pair_union_coverage,two_passage_gain_over_best_single_route,positive_gain_query_ratio,best_pair_includes_first_retrieved_passage
+BASK-SparseFirst,0.6879,0.0738,0.4733,0.6533
+BASK-SparseAdaptive,0.6903,0.0740,0.4733,0.6633

@@ -1,0 +1,12 @@
+Create passage-level augmentation material for the following retrieved passage.
+
+Passage identifier:
+{passage_id}
+
+Passage text:
+{passage_text}
+
+Instruction:
+Generate compact supervision material for the fixed PRAG protocol. Preserve factual content and avoid adding unsupported facts.
+
+Output:

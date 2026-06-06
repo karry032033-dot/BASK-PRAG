@@ -1,0 +1,19 @@
+component,setting
+Retriever,BM25 over an Elasticsearch wiki index
+Inference retrieval depth,Top-3 retrieved passages
+Grouped-generation candidate pool,Top-15 candidate passages; coverage target rho = 1.0; budget cap B recorded as actual selected passages
+Passage order in Combine,Passages are concatenated in BM25 order
+Combine context budget,256 tokens per passage; 64-token maximum generation length
+Combine prompt,"Instruction-style QA prompt with the question, ordered passage blocks, and a concise-answer instruction"
+PRAG-only prompt,Question-only generation with the same answer-style instruction and no passage block
+Base model,Llama-3.2-1B-Instruct
+LoRA injection location,FFN modules only
+LoRA hyperparameters,"rank = 2, alpha = 32, dropout = 0"
+Training protocol,1 epoch; learning rate 3e-4; fixed prompts and templates
+Adapter merging in main results,Fixed equal-weight merging in retrieval order
+Two-passage audit protocol,Unordered top-3 pairs; labels used only for posterior audit
+Main static-evaluation hardware,"One 32 GB GPU for Llama-3.2-1B PRAG, Combine, and BASK-style runs"
+Dynamic-reference hardware,Two 48 GB GPUs for the same-protocol Llama-3-8B DyPRAG reproduction
+Offline cost unit,Measured supervision-generation calls rather than inferred query-passage counts
+Adapter-reuse statistic,271 selected passage-level adapters on HotpotQA Real-300; 3.32 covered queries per generated passage on average
+Resource comparison axis,"Accuracy, offline construction calls, GPU setting, and measured online latency"

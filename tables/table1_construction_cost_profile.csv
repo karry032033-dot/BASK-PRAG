@@ -1,0 +1,4 @@
+augmentation_family,construction_principle,relative_cost,hotpotqa_real300_calls,resource_system_interpretation
+Classical PRAG augmentation,Per-query-passage event generation,1.00x,900 generation calls (300 x top-3),Independent events; repeated offline supervision and little cross-query reuse.
+BASK grouped construction,One generation call per selected reusable passage,~0.30x,271 calls; 3.32 queries per generated passage on average,"Passage-level adapters are reused across covered queries, reducing repeated offline supervision while preserving passage identifiers for routing."
+BASK sparse invocation,Grouped cache plus route-preserving sparse replacement,~0.30x,Same grouped cache; no extra offline calls,Same grouped cache is reused online; no extra offline calls and retrieval order is preserved.

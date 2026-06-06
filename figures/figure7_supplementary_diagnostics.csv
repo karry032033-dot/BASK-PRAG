@@ -1,0 +1,15 @@
+panel,group,metric,value
+a,ICL,EM,0.293
+a,ICL,F1,0.338
+a,PRAG,EM,0.403
+a,PRAG,F1,0.428
+a,Combine,EM,0.377
+a,Combine,F1,0.411
+b,Hotpot context-only control,EM,0.380
+b,Hotpot context-only control,F1,0.502
+c,Bridge-ICL,F1,0.217
+c,Bridge-PRAG,F1,0.135
+c,Bridge-Combine,F1,0.243
+c,Comparison-ICL,F1,0.416
+c,Comparison-PRAG,F1,0.469
+c,Comparison-Combine,F1,0.455
